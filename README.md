@@ -1,2 +1,2 @@
 # forumly
-Forumly fo everyone!
+Forumly for everyone!
