@@ -1,2 +1,2 @@
-# forumly
+# Forumly
 Forumly for everyone!
