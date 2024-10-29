@@ -1,0 +1,68 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <script defer src="./src/index.js"></script>
+        <title>Forumly</title>
+    </head>
+    <body>
+        <div class="app_hello">
+            <div class="desc_hello">
+                Добро пожаловать на Forumly!
+            </div>
+            <button id="cont_btn">
+                Продолжить
+            </button>
+            <a href="https://t.me/JSdev11" id="tme_btn">
+                <img src="./img/tme_logo.png" alt="">
+            </a>
+        </div>
+        <div class="app_main">
+            <div class="main_bar">
+                <div class="categ_btn">Категории</div>
+                <div class="main_btn">Главная</div>
+                <div class="acc_btn">Аккаунт</div>
+            </div>
+            <div class="main_display">
+                <div class="post_sect">
+                    <div class="post_dec">
+                        Ничего нет? Будьте первым!
+                    </div>
+                    <input id="post_val" type="text">
+                    <img draggable="false" id="post_btn" src="./img/send.png" alt="">
+                </div>
+                <div class="acc_sect">
+                    <div class="create-case">
+                        <p>Имя пользователя:</p>
+                        <input type="text" id="name_val">
+                        <p>Пароль:</p>
+                        <input type="password" id="pass_val">
+                        <button id="done_btn">Готово</button>
+                    </div>
+                    <div class="done-case">
+                        <img src="./img/loading.png" alt="" id="loading_img">
+
+                        <div class="name_display"></div>
+                        <div class="pass_display" type="password"></div>
+                    </div>
+                </div>
+                <div class="supp_sect">
+                    <img draggable="false" src="./img/alert.png" alt="">
+                    <p>Если столкнулись с багом или проблемой, напишите нам!</p>
+                    <input type="text" id="supp_val">
+                    <button id="support_btn">Отправить</button>
+                </div>
+            </div>
+            <div class="app_categ">
+                <div class="supp_btn">Поддержка</div>
+                <div class="">В разработке...</div>
+            </div>
+        </div>
+
+            
+
+        
+    </body>
+    </html>
